@@ -121,19 +121,19 @@ int main(int argc, char *argv[])
 #include "widget.h"
 #include "ui_widget.h"
 
-#include<QVBoxLayout>
-#include<QHBoxLayout>
-#include<QString>
-#include<QFileDialog>
-#include<QMouseEvent>//添加头文件
-#include<QLabel>
-#include<QPixmap>
-#include<QPainter>
-#include<QScrollArea>
-#include<QImage>
-#include<QMessageBox>
-#include<QString>
-#include<QFileInfoList>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QString>
+#include <QFileDialog>
+#include <QMouseEvent>//添加头文件
+#include <QLabel>
+#include <QPixmap>
+#include <QPainter>
+#include <QScrollArea>
+#include <QImage>
+#include <QMessageBox>
+#include <QString>
+#include <QFileInfoList>
 Widget::Widget(QWidget *parent)
     : QWidget(parent),
   ui(new Ui::Widget)
